@@ -11,7 +11,7 @@ module.exports = {
         'plugin:jsx-a11y/recommended',
         'plugin:prettier/recommended',
         "plugin:react/recommended",
-        'next',
+        'plugin:@next/next/recommended',
         'next/core-web-vitals',
     ],
     rules: {
