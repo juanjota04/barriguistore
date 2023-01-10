@@ -55,7 +55,7 @@ const Header = () => {
 						className={styles['navbar-shopping-cart']}
 						onClick={() => setToggleOrders(!toggleOrders)}
 					>
-						<Image src={shoppingCart} alt="shopping cart" />
+						<Image src={shoppingCart} alt="shopping cart" width="30" height="30"/>
 						{state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
 					</button>
 				</ul>

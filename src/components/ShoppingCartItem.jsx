@@ -6,7 +6,7 @@ const ShoppingCartItem = ({ product }) => {
 	return (
 		<div className={styles.ShoppingCartItem}>
 			<figure>
-				<Image src={product.images} alt={product.title} />
+				<Image src={product.images} alt={product.title}  />
 			</figure>
 			<p>{product.title}</p>
 			<p>{product.price}</p>
