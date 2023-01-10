@@ -10,6 +10,7 @@ module.exports = {
     rules: {
       semi: ['error', 'always'],
       'prettier/prettier': 0,
+      "react/no-unescaped-entities": "off",
     },
   };
 

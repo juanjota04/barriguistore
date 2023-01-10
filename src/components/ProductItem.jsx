@@ -20,13 +20,13 @@ const ProductItem = ({ product }) => {
 					<p>${product.price}</p>
 					<p>{product.title}</p>
 				</div>
-				<figure className={styles['more-clickable-area']} onClick={() => handleClick(product)} >
+				<button className={styles['more-clickable-area']} onClick={() => handleClick(product)} >
 					{state.cart.includes(product) ? <Image
 						className={styles.disabled, styles['add-to-cart-btn']}
 						src={addedToCartImage}
 						alt="added to cart"
 					/> : <Image className={styles['add-to-cart-btn'], styles.pointer} src={addToCartImage} alt="add to cart" />}
-				</figure>
+				</button>
 			</div>
 		</div>
 	);

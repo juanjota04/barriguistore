@@ -13,7 +13,7 @@ const useGetProducts = (API) => {
         })
       );
     })();
-  }, []);
+  });
 
   return products;
 };
