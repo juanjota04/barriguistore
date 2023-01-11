@@ -20,7 +20,7 @@ const Header = () => {
 
 	return (
 		<nav className={styles.Nav}>
-			<Image src={menuIcon} alt="menu" className={styles.menu} />
+			{/* <Image src={menuIcon} alt="menu" className={styles.menu} /> */}
 			<div className={styles['navbar-left']}>
 				<Link href="/" passHref>
 				<Image src={logo} alt="logo" className={styles['nav-logo']} />

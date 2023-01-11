@@ -1,0 +1,13 @@
+{
+    "theme_color": "#e86aa7",
+    "background_color": "#e1a3ff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Barriguirosada Store",
+    "short_name": "barristore",
+    "description": "Barriguirosada Ecommerce",
+    "icons": {
+        "name": "Negrita Negro y Amarillo Logo (1).svg"
+    }
+}
